@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martinez & Son Hardscapes - Chicago, IL</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #2e3b2e;
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+    section {
+      padding: 2em 1em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+    .service {
+      background: white;
+      padding: 1em;
+      flex: 1 1 250px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      background: white;
+      padding: 1.5em;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #2e3b2e;
+      color: white;
+      padding: 0.75em 1.5em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #2e3b2e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Martinez & Son Hardscapes</h1>
+    <p>Quality Hardscaping in Chicago, IL</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Patios</h3>
+        <p>Beautiful custom stone or brick patios built to last.</p>
+      </div>
+      <div class="service">
+        <h3>Walkways</h3>
+        <p>Enhance your home's entryway with a strong, stylish walkway.</p>
+      </div>
+      <div class="service">
+        <h3>Retaining Walls</h3>
+        <p>Functional and decorative retaining walls designed for your space.</p>
+      </div>
+      <div class="service">
+        <h3>Driveways</h3>
+        <p>Durable, attractive driveways built to withstand the Chicago climate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Request More Information</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Tell us what you're looking for..." required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Martinez & Son Hardscapes | Chicago, IL
+  </footer>
+
+</body>
+</html>
